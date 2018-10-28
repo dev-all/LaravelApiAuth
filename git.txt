@@ -1,0 +1,100 @@
+pwd
+
+cd
+
+
+$ cd /c/xampp
+
+-----inicia un py new
+
+git init   
+
+-----estado de nuestros archivos
+git status
+
+
+-----agragar archivos al stagina area
+
+git add [nombre de archivo]
+
+git add -A es equivalente a git add --all
+git add -u es equivalente a git add --update
+
+
+--primer putno de contrl / imagen del py
+
+git commit  // te lleva a la consola de bit y solo ingres un msj he ingresa 
+tecla [esc] y insert :wq
+
+++ atajo a op anteriro
+git commit -m "texto del mensaje"
+
+
+
+--- log de commit
+
+git log
+
+--- revertir cambios de archivos 
+
+git checkout -- nombreDeArchivo
+
+
+--- revisar diferencias en archivos con cambios
+
+git diff
+
+
+
+---- VERSIONADO
+1) ot versiones de mi py
+
+ git branch  // en verde muetra la version actual
+
+
+2) in version login
+
+ git branch login
+
+++ para moverse a la version login 
+ 
+git checkout login
+
+
+----- subir versiones a github
+
+cuando se crea el ropositorio en git 
+nos da los comando a utiizar para subir/atualizar el proyecto
+
+$ git remote add origin https://github.com/dev-all/LaravelApiAuth.git
+$ git push -u origin master
+
+
+---- bajar veriones de un proyecto en git
+unicarnos en el path donde queremos bajar el py 
+git clone [urlDelProyecto ej: https://github.com/dev-all/LaravelApiAuth.git]
+
+
+--- Bajar cambios del repositorio remoto: git pull
+
+$ git pull
+
+
+--- Subir cambios al repositorio remoto: git push
+
+$ git push origin master
+
+
+
+ej completo si actualizo un archivo local y quiero subirlo a github
+
+1 git status
+2 git add [ . / nombreDeArchivo]
+3 git commit -m "mjs"
+4 git push origin [master / branch en que estemos trabajando] 
+
+
+
+
+
+
