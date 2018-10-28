@@ -2,7 +2,8 @@
 
 
 
-## Sistema de Autenticación API Rest — Passport
+## Sistema de Autenticación API Rest — Passport OAuth
+
 
 
 ## Ref
