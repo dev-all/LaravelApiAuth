@@ -99,3 +99,6 @@ ej completo si actualizo un archivo local y quiero subirlo a github
 
 link de interes
 https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/crear-un-repositorio-remoto.html
+
+https://www.hostinger.com.ar/tutoriales/comandos-de-git#gref
+
