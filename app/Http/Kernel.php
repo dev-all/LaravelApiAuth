@@ -13,6 +13,8 @@ class Kernel extends HttpKernel
      *
      * @var array
      */
+
+     // Aquí se programa el Middleware que se cargará siempre y globalmente en la aplicación.
     protected $middleware = [
         \App\Http\Middleware\CheckForMaintenanceMode::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
@@ -26,6 +28,8 @@ class Kernel extends HttpKernel
      *
      * @var array
      */
+    
+
     protected $middlewareGroups = [
         'web' => [
             \App\Http\Middleware\EncryptCookies::class,
@@ -50,6 +54,7 @@ class Kernel extends HttpKernel
      *
      * @var array
      */
+    // Aquí se programa el Middleware que se cargará dependiendo de la ruta.
     protected $routeMiddleware = [
         'auth' => \App\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,

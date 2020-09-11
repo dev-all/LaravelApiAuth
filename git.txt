@@ -102,3 +102,4 @@ https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/crear-
 
 https://www.hostinger.com.ar/tutoriales/comandos-de-git#gref
 
+https://manuais.iessanclemente.net/index.php/LARAVEL_Framework_-_Tutorial_01_-_Creaci%C3%B3n_de_API_RESTful#Creaci.C3.B3n_de_estructura_y_componentes_de_una_API_REST_con_LARAVEL

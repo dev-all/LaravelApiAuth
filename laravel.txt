@@ -1,0 +1,45 @@
+
+//https://manuais.iessanclemente.net/index.php/LARAVEL_Framework_-_Tutorial_01_-_Creaci%C3%B3n_de_API_RESTful#Implementaci.C3.B3n_de_las_operaciones_de_la_API_RESTful_con_Laravel
+
+
+//solo crea la migracion
+php artisan make:migration Catergorias_migration --create=Catergorias
+
+
+
+// recurso de producto
+php artisan make:resource Product
+
+//creamos la migracion y el modelo
+php artisan make:model Catergorias -mc
+
+
+
+
+
+
+////
+php artisan make:migration fabricantes_migration --create=fabricantes
+
+php artisan migrate
+
+#Migrated: 2015_04_09_105558_fabricantes_migration
+
+
+# Si vamos a PHPMyAdmin veremos que ha aparecido una nueva tabla llamada migrations.
+
+# Si queremos volver a poner la base de datos en su estado inicial podemos hacerlo con:
+php artisan migrate:refresh
+
+
+
+
+
+-------seeds
+
+php artisan make:seeder ___nombre___
+
+php artisan db:seed
+
+
+
